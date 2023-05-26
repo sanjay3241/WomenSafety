@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="75dp"
+    tools:context=".SecondFragment">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginStart="20dp"
+         android:layout_marginTop="20dp"
+         android:layout_marginEnd="20dp"
+         android:layout_marginBottom="20dp"
+         android:orientation="vertical">
+
+         <Button
+             android:id="@+id/btn_addYourself"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/rectangular_button"
+             android:text="@string/AddYourNumber"
+             />
+
+         <Button
+             android:id="@+id/btn_addGuardian"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:background="@drawable/rectangular_button"
+             android:text="@string/AddGuardianNumber" />
+
+         <Button
+             android:id="@+id/btn_viewRegistered"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:background="@drawable/rectangular_button"
+             android:text="@string/viewRegister" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:textStyle="bold"
+             android:text="No Location"
+             android:id="@+id/idtxtLocation"
+             android:gravity="center"
+             />
+         <Button
+             android:id="@+id/btn_inDanger"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+             android:background="@drawable/rectangular_button"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:text="@string/help" />
+
+     </LinearLayout>
+ </RelativeLayout>
+
+</ScrollView>

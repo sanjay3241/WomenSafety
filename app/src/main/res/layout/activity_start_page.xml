@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".startPage"
+    >
+
+    <ImageView
+        android:layout_width="258dp"
+        android:layout_height="134dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="SignUp / LogIn With Email"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnGetStart"
+        android:text="Get Started"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="By clicking here you accept that you have read all the termand condition "
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="18dp" />
+
+</LinearLayout>
